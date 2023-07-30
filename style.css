@@ -1,0 +1,79 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{   
+    
+    background-color: #DDDDDD;
+    padding: 1px 2px;
+
+}
+p{
+    color: rgb(0, 0, 0);
+    margin: 5px;
+}
+
+.lugra{    
+
+     font-family: 'Lugrasimo', cursive;
+     color:#118C4E;
+}
+
+.maven{
+    font-family: 'Maven Pro', sans-serif;
+    margin-bottom: 10px;
+
+}
+img{
+    weight: 200px;
+}
+
+h3{
+    color: #FF851B;
+    margin: 10px;
+}
+
+nav{
+    
+    background:#00f8532d;
+    justify-content:center;    
+    padding:  10px 10px 10px 10px;   
+    align-items: center;
+    border-radius: 10%;
+    margin-bottom: 10px;
+
+}
+
+ul{   
+
+    display: flex;
+    list-style: none ;
+    justify-content:space-evenly;   
+    
+ 
+
+}
+ a {
+    text-decoration: none;
+    color: black;
+ }
+
+
+
+.imagem-estilizada {
+
+    display: block; /* Transforma a imagem em um elemento de bloco */
+    margin: 0 auto;
+   /* display: flex;*/
+    width: 400px; /* Defina o tamanho que desejar */
+    height: 300px;
+    box-shadow: 0 0 40px                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          rgba(0, 0, 0, 0.5); /* Adicione a sombra à imagem */
+    /* Outros estilos, como borda, margem, etc., podem ser adicionados conforme necessário */
+  }
+
+.imagem-estilizada:hover{
+    width: 600px; /* Defina o tamanho que desejar */
+    height: 500px;
+}
